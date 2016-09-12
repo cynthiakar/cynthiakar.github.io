@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Websites</title>
+        <link rel="stylesheet" type="text/css" href="_css/main.css">
+        <link rel="shortcut icon" href="_media/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <script>
+        $(document).ready(function() {
+            $('.parent').click(function() {
+                $('.sub-nav').toggleClass('visible');
+            });
+        });
+        </script>
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li class="parent"><a>work</a>
+                    <ul class="sub-nav">
+                        <li><a href="graphics.html">graphics</a></li>
+                        <li><a href="website.html">websites</a></li>
+                    </ul>
+                </li>
+                <li><a href="studioc.html">studio c</a></li>
+                <li><a href="capstone.html">capstone</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        
+        <div id="logod"></div>
+        <script>
+            $(document).ready(function() {
+                $("#w1").click(function () {
+                    $("#wd1").css("display", "block");
+                });
+                $("#w2").click(function () {
+                    $("#wd2").css("display", "block");
+                });
+                $("#w3").click(function () {
+                    $("#wd3").css("display", "block");
+                });
+                $("#w4").click(function () {
+                    $("#wd4").css("display", "block");
+                });
+            });
+            
+        </script>
+        <div class="wrapper">
+                <h1>websites</h1>
+                <div class="webex" id="w1"></div>
+                <div class="webex" id="w2"></div>
+                <div class="webex" id="w3"></div>
+                <div class="webex" id="w4"></div>
+        </div>
+        <div id="wd1" class="hidew">
+            <h2>Dante's Inferno</h2>
+            <button class="wclose" type="button" onclick="$('#wd1').css('display', 'none');">x</button>
+            <img class="imgdesc" src="_media/dante.png">
+            <p class="wdesc">An informational website designed for students to learn about Dante and his works. This was our first client site so we learned how to tailor the website to what he wanted. We had to research Dante and ensure accuracy in all of our content.<a class="linkdesc" target="_blank" href="http://swcta.net/teachers/changcl/dante/iceCold/index.html">Click here to visit the site</a></p>
+        </div>
+        <div id="wd2" class="hidew">
+            <h2>Javascript Quiz</h2>
+            <button class="wclose" type="button" onclick="$('#wd2').css('display', 'none');">x</button>
+            <img class="imgdesc" src="_media/quiz_maker.png">
+            <p class="wdesc">A four part quiz about web design created using only Javascript, HTML, and CSS. Our quiz randomly generates questions for the subject selected and checks to see if they were correct. Our HTML page is mostly blank and we let Javascript do the rest.<a class="linkdesc" target="_blank" href="https://3c8388e685b9ff0d88aac246b1b180b634e8a2cb.googledrive.com/host/0B49uv11V-y6dbkZ3TGV6Z0llbjQ/test.html">Click here to visit the site</a></p>
+        </div>
+        <div id="wd3" class="hidew">
+            <h2>SWCTA Web Store</h2>
+            <button class="wclose" type="button" onclick="$('#wd3').css('display', 'none');">x</button>
+            <img class="imgdesc" src="_media/swctastore2.png">
+            <p class="wdesc">We created an online store, where students can pay fees, buy merchandise, and make any club payments. Using our knowledge of PHP and MySQL, we created a database for our inventory as well as a shopping cart for users to keep track of what they're buying.</p>
+        </div>
+        <div id="wd4" class="hidew">
+            <h2>SWCTA Website Redesign</h2>
+            <button class="wclose" type="button" onclick="$('#wd4').css('display', 'none');">x</button>
+            <img class="imgdesc" src="_media/swcta_mockup.png">
+            <p class="wdesc">A more responsive, modern redesign of the Southwest Career and Technical Academy Website. We applied our knowledge of media queries to improve our school website by making it more user friendly for the different screen sizes.<a class="linkdesc" target="_blank" href="https://ad389c135a4ba083f1a8becd33523ba8cf46ac5e.googledrive.com/host/0B49uv11V-y6dLVFBRjJ4Z3RvMkk/">Click here to visit the site</a></p>
+        </div>
+    </body>
+</html> 
