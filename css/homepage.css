@@ -9,7 +9,7 @@ body {
 #logod {
     width: 20%;
     height: 190px;
-    background: url('../_media/logo.png') no-repeat center;
+    background: url('../media/logo.png') no-repeat center;
     background-size: contain;
     margin: 12% auto 0 auto;
 }

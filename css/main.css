@@ -6,28 +6,28 @@ body {
     margin: 0 auto;
 }
 #logod {
-    background: url('../_media/logo.png') no-repeat center;
+    background: url('../media/logo.png') no-repeat center;
     background-size: contain;
 }
 h1 { font-weight: 600; }
 .webex { border: 7px solid #E80E8A; }
 #w1 {
-    background: url('../_media/dante_web.png') no-repeat center;
+    background: url('../media/dante_web.png') no-repeat center;
     background-size: contain;
     float: left;
 }
 #w2 {
-    background: url('../_media/quiz_web.png') no-repeat center;
+    background: url('../media/quiz_web.png') no-repeat center;
     background-size: contain;
     float: right;
 }
 #w3 {
-    background: url('../_media/swctastore_web.png') no-repeat center;
+    background: url('../media/swctastore_web.png') no-repeat center;
     background-size: contain;
     float: left;
 }
 #w4 {
-    background: url('../_media/swcta_web.png') no-repeat center;
+    background: url('../media/swcta_web.png') no-repeat center;
     background-size: contain;
     float: right;
 }
@@ -202,7 +202,7 @@ textarea, input{ width: 710px; }
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #29AAE2 url(../_media/menu-icon.png) center;
+	background: #29AAE2 url(../media/menu-icon.png) center;
 }
 nav ul{ /*idk like the width and stuff of the whole thing*/
     list-style-type: none;
