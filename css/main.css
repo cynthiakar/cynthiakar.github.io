@@ -2,12 +2,35 @@
 * { font-family: 'Poppins', sans-serif; }
 body {
     background-color: #E5E6E9;
+    height: 100%;
     margin: 0;
+}
+.bodywrap {
     margin: 0 auto;
 }
 #logod {
     background: url('../media/logo.png') no-repeat center;
     background-size: contain;
+}
+footer {
+    height: 50px;
+    background: #E80E8A;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.dumbfooter {
+    position: fixed;
+}
+footer p {
+    position: absolute;
+    margin-top: 12px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 h1 { font-weight: 600; }
 .webex { border: 7px solid #E80E8A; }
@@ -125,6 +148,7 @@ h4 {
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 0;
+    line-height: 30px;
 }
 .gdesc {
     display: table-cell;
@@ -132,6 +156,7 @@ h4 {
     margin: 0 auto;
     font-weight: 500;
     padding: 0 20px;
+    line-height: 20px;
 }
 .gdesc a { color: white; }
 .gdesc a:hover { color: #E80E8A; }
@@ -249,8 +274,47 @@ ul.sub-nav li:hover, ul.sub-nav li:focus { background: #29AAE2; }
 ul.sub-nav li:hover a, ul.sub-nav li:focus a { color: white; }
 ul.sub-nav.visible { display: block; }
 .nav-item.none { display: none; }
+@media only screen and (min-width: 1200px){
+    .bodywrap { width: 1200px; }
+    nav { margin: 5% 0% 0 24%; }
+    ul.sub-nav {
+        width: 130px;
+        font-size: .9em;
+        top: 70px;
+    }
+    nav ul li { padding: 13px 22px; }
+    nav ul li a { font-size: 1.7em; }
+    h1 {
+        display: block;
+        width: 30%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 3.7em
+    }
+    h1.toolong { width: 50%; }
+    #logod {
+        margin: -1% 0 0 0;
+        width: 20%;
+        height: 190px;
+    }
+    .wrapper {
+        width: 910px;
+        margin: -100px 0 50px 21%;
+    }
+    #websites.wrapper { height: 720px; }
+    #graphics.wrapper { height: 3050px; }
+    #w1, #w2 { margin-top: 2%; }
+    #w3, #w4 {
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    .webex {
+        width: 426px;
+        height: 240px;
+    }
+}
 @media only screen and (max-width: 1200px){
-    body { width: 1000px; }
+    .bodywrap { width: 1000px; }
     nav {
         margin: 6% 0% 0 24%;
         width: 760px;
@@ -270,8 +334,10 @@ ul.sub-nav.visible { display: block; }
     }
     .wrapper {
         width: 790px;
-        margin: -120px 0 0 22%;
+        margin: -120px 0 50px 22%;
     }
+    #websites.wrapper { height: 600px; }
+    #graphics.wrapper { height: 2700px; }
     #w1, #w2 { margin-top: 2%; }
     #w3, #w4 { margin-top: 4%; }
     .webex {
@@ -307,45 +373,8 @@ ul.sub-nav.visible { display: block; }
     textarea, input{ width: 670px; }
     
 }
-@media only screen and (min-width: 1200px){
-    body { width: 1200px; }
-    nav { margin: 5% 0% 0 24%; }
-    ul.sub-nav {
-        width: 130px;
-        font-size: .9em;
-        top: 70px;
-    }
-    nav ul li { padding: 13px 22px; }
-    nav ul li a { font-size: 1.7em; }
-    h1 {
-        display: block;
-        width: 30%;
-        text-align: center;
-        margin: 0 auto;
-        font-size: 3.7em
-    }
-    h1.toolong { width: 50%; }
-    #logod {
-        margin: -1% 0 0 0;
-        width: 20%;
-        height: 190px;
-    }
-    .wrapper {
-        width: 910px;
-        margin: -100px 0 0 21%;
-    }
-    #w1, #w2 { margin-top: 2%; }
-    #w3, #w4 {
-        margin-top: 4%;
-        margin-bottom: 2%;
-    }
-    .webex {
-        width: 426px;
-        height: 240px;
-    }
-}
 @media only screen and (max-width: 1024px){
-    body { width: 768px; }
+    .bodywrap { width: 768px; }
     nav {
         margin: 45% auto 0 auto;
         width: 710px;
@@ -373,6 +402,8 @@ ul.sub-nav.visible { display: block; }
         width: 760px;
         margin: -100px auto 0 auto;
     }
+    #websites.wrapper { height: 670px; }
+    #graphics.wrapper { height: 2800px; }
     #w1, #w2 { margin-top: 2%; }
     #w3, #w4 {
         margin-top: 4%;
@@ -399,7 +430,7 @@ ul.sub-nav.visible { display: block; }
     form { margin-bottom: 50px; }
 }
 @media only screen and (max-width: 720px){
-    body { width: 375px; }
+    .bodywrap { width: 375px; }
     #menu-icon {
 		display:inline-block;
         position: absolute;
@@ -452,10 +483,15 @@ ul.sub-nav.visible { display: block; }
         top: 0;
         left: 0;
     }
+    footer#contact {
+        position: fixed;
+    }
     .wrapper {
         width: 314px;
         margin: 15% auto 0 auto;
     }
+    #websites.wrapper { height: 950px; }
+    #graphics.wrapper { height: 4600px; }
     #w1, #w2, #w3, #w4 {
         margin-top: 4%;
         margin-bottom: 4%;
