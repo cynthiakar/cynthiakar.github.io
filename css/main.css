@@ -54,6 +54,21 @@ h1 { font-weight: 600; }
     background-size: contain;
     float: right;
 }
+#w5 {
+    background: url('../media/acte_website.png') no-repeat center;
+    background-size: contain;
+    float: left;
+}
+#w6 {
+    background: url('../media/creatingcomm_website.png') no-repeat center;
+    background-size: contain;
+    float: right;
+}
+#w7 {
+    background: url('../media/harbor_website.png') no-repeat center;
+    background-size: contain;
+    float: left;
+}
 /*website hide/show divs*/
 .hidew {
     display: none;
@@ -115,12 +130,12 @@ h2 {
     float: right;
     width: 50%;
 }
-#g1, #g2, #g3, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11 {
+#g1, #g2, #g3, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11, #g12, #g13, #g15 {
     display: block;
     margin: 30px auto;
     border: 7px solid #29AAE2;
 }
-#g1, #g2, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11 { width: 400px; }
+#g1, #g2, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11, #g12, #g13, #g15 { width: 400px; }
 #g3 {
     width: 380px;
     background-color: white;
@@ -195,12 +210,16 @@ h4 {
     margin: 20px 8px 0 8px;
 }
 /*studio c and capston*/
-.comingsoon {
-    color: #29AAE2;
-    font-size: 1.8em;
-    margin-left: 50px;
-    margin-top: 10px;
-    font-weight: 600;
+.impDesc {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 50px auto 100px auto;
+}
+.imgprev {
+    width: 600px;
+    display: block;
+    margin: 20px auto;
+    border: 7px solid #c1c1c1;
 }
 /*contact me*/
 form{
@@ -300,11 +319,15 @@ ul.sub-nav.visible { display: block; }
         width: 910px;
         margin: -100px 0 50px 21%;
     }
-    #websites.wrapper { height: 720px; }
-    #graphics.wrapper { height: 3050px; }
-    #w1, #w2 { margin-top: 2%; }
+    #websites.wrapper { height: 1300px; }
+    #graphics.wrapper { height: 3620px; }
+    #w1, #w2, #w7 { margin-top: 2%; }
     #w3, #w4 {
         margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    #w5, #w6 {
+        margin-top: 2%;
         margin-bottom: 2%;
     }
     .webex {
@@ -343,7 +366,7 @@ ul.sub-nav.visible { display: block; }
         width: 373px;
         height: 210px;
     }
-    #g1, #g2, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11 { width: 350px; }
+    #g1, #g2, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11, #g12, #g13, #g15 { width: 350px; }
     #g3 {
         width: 330px;
         background-color: white;
@@ -532,7 +555,7 @@ ul.sub-nav.visible { display: block; }
         float: none;
         width: 100%;
     }
-    #g1, #g2, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11 { width: 300px; }
+    #g1, #g2, #g4, #g5, #g6, #g7, #g8, #g9, #g10, #g11, #g12, #g13, #g15 { width: 300px; }
     #g3 {
         width: 280px;
         background-color: white;
