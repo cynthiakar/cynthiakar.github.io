@@ -321,12 +321,12 @@ ul.sub-nav.visible { display: block; }
     }
     #websites.wrapper { height: 1300px; }
     #graphics.wrapper { height: 3620px; }
-    #w1, #w2, #w7 { margin-top: 2%; }
-    #w3, #w4 {
+    #w1, #w6, #w7 { margin-top: 2%; }
+    #w5, #w4 {
         margin-top: 4%;
         margin-bottom: 2%;
     }
-    #w5, #w6 {
+    #w3, #w2 {
         margin-top: 2%;
         margin-bottom: 2%;
     }
@@ -360,8 +360,8 @@ ul.sub-nav.visible { display: block; }
     }
     #websites.wrapper { height: 600px; }
     #graphics.wrapper { height: 2700px; }
-    #w1, #w2 { margin-top: 2%; }
-    #w3, #w4 { margin-top: 4%; }
+    #w7, #w6 { margin-top: 2%; }
+    #w5, #w4 { margin-top: 4%; }
     .webex {
         width: 373px;
         height: 210px;
@@ -426,8 +426,8 @@ ul.sub-nav.visible { display: block; }
     }
     #websites.wrapper { height: 670px; }
     #graphics.wrapper { height: 2800px; }
-    #w1, #w2 { margin-top: 2%; }
-    #w3, #w4 {
+    #w7, #w6 { margin-top: 2%; }
+    #w5, #w4 {
         margin-top: 4%;
         margin-bottom: 5%;
     }
@@ -514,7 +514,7 @@ ul.sub-nav.visible { display: block; }
     }
     #websites.wrapper { height: 950px; }
     #graphics.wrapper { height: 4600px; }
-    #w1, #w2, #w3, #w4 {
+    #w7, #w6, #w5, #w4 {
         margin-top: 4%;
         margin-bottom: 4%;
     }
