@@ -1,0 +1,110 @@
+/*** Important ***/
+.tf-filter-item {
+  display: none;
+}
+
+button.active {
+  /*background-color: #ddd;*/
+  font-style: italic;
+  font-weight: bold;
+}
+
+button.disable-button {
+  border-style: dashed;
+}
+
+.show-item {
+  display: inline-block;
+  /* or whatever display style is appropriate 
+   * for tf-filter-item when it is showing;
+   */
+}
+
+/*** Aesthetics ***/
+
+.tf-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+#display-pages {
+  float: left;
+  width: 532px;
+}
+#item-count {
+  color: #707070;
+  text-align: right;
+  margin-right: 5px;
+  font-size: 10pt;
+  margin: 0 auto 10px auto;
+}
+
+.tf-item {
+  width: 250px;
+  margin: 0 8px;
+  background: #fff;
+  padding: 0;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+  border-radius: 2px;
+  margin-bottom: 2rem
+}
+.project-icons {
+  width: 100%;
+}
+.project-info {
+  padding: 0 8px;
+}
+.project-title {
+  margin: 5px auto;
+  font-size: 12pt;
+}
+.project-title a {
+  color: #000;
+  text-decoration: none;
+}
+.project-desc {
+  margin: 0 auto;
+  font-size: 11pt;
+  color: #707070;
+  padding: 5px 0 10px 0;
+}
+
+#filter-menu {
+  float: left;
+  border-left: 1px solid #707070;
+  margin-left: 15px;
+  padding-left: 15px;
+  width: 150px;
+}
+#filter-menu p {
+  font-size: 11pt;
+  color: #707070;
+}
+.filter-title {
+  display: block;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 11pt;
+  margin-bottom: 10px;
+  padding: 0;
+  color: #707070;
+}
+.filter-list{
+  margin: 10px 0 10px 12px;
+  display: none;
+}
+.lang-button, .skill-button, .all-skill-button, .all-lang-button {
+  font-size: 10pt;
+  display: block;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 5px;
+  color: #707070;
+}
+
+pre code {
+  overflow-x: auto;
+}

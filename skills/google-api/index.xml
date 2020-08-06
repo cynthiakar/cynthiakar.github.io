@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google API on Cynthia&#39;s Portfolio</title>
+    <link>http://example.org/skills/google-api/</link>
+    <description>Recent content in Google API on Cynthia&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2020 18:20:40 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/skills/google-api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>divvi</title>
+      <link>http://example.org/posts/divvi/</link>
+      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
+      
+      <guid>http://example.org/posts/divvi/</guid>
+      <description>divvi: the bill splitting app February 2020
+In February, I participated in my second hack-a-thon, CuseHacks, and our team won Best Use of Google API!
+What is divvi? We built a receipt scanner app called &amp;lsquo;divvi&amp;rsquo; that focused on facilitating a productive conversation between you and your fellow meal splitters by itemizing your receipt and calculating the totals owed by each. We prioritized the user experience and wanted to promote chatter at the table rather than detract from it.</description>
+    </item>
+    
+  </channel>
+</rss>

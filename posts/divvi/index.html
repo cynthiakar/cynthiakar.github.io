@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<title>divvi | Cynthia&#39;s Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Receipt Scanner and Bill Divider ">
+    <base href="http://example.org/">
+    <link type="text/css" rel="stylesheet" href="http://example.org/css/style.css">
+    <link type="text/css" rel="stylesheet" href="http://example.org/css/hugo-filter.css">
+    <link rel="canonical" href="http://example.org/posts/divvi/">
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+    <meta property="og:title" content="divvi" />
+<meta property="og:description" content="Receipt Scanner and Bill Divider" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/divvi/" />
+<meta property="article:published_time" content="2020-02-20T18:20:40-07:00" />
+<meta property="article:modified_time" content="2020-02-20T18:20:40-07:00" />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="divvi"/>
+<meta name="twitter:description" content="Receipt Scanner and Bill Divider"/>
+
+</head>
+
+<body><div id="sidebar">
+	<a class="sidebar-nav-item" href="#" title="Index"><img id="logo" src="logo.png"/></a>
+	<a class="sidebar-nav-item" href="#" title="Index"><h1 id="name">Cynthia Kar</h1></a>
+	<p id="description">A portfolio of my coding projects, experiences, and other fun learning experiments</p>
+	<div id="socials">
+		<a href="https://www.linkedin.com/in/cynthiakar/" target="_blank"><img class="social_logo" src="linkedin_logo.png"/></a>
+		<a href="https://github.com/cynthiakar" target="_blank"><img class="social_logo" src="github_logo.png"/></a>
+		<a href="https://www.instagram.com/cyth.nia/" target="_blank"><img class="social_logo" src="ig_logo.png"/></a>
+	</div>
+	
+	<nav class="sidebar-nav">
+		<a class="sidebar-nav-item" href="#" title="Index">Home</a>
+	    
+	    
+	    <a class="sidebar-nav-item" href="/aboutme/" title="About Me">About Me</a>
+	    
+	    <a class="sidebar-nav-item" href="/contact/" title="Contact">Contact</a>
+	    
+	</nav>
+</div><main id="content">
+<section id="main">
+  
+  <div>
+        <article id="content">
+           <p><img src="divvi.jpg" alt="divvi-logo"></p>
+<h1 id="divvi-the-bill-splitting-app">divvi: the bill splitting app</h1>
+<p><em>February 2020</em></p>
+<p>In February, I participated in my second hack-a-thon, CuseHacks, and our team won Best Use of Google API!</p>
+<h4 id="what-is-divvi">What is divvi?</h4>
+<p>We built a receipt scanner app called &lsquo;divvi&rsquo; that focused on facilitating a productive conversation between you and your fellow meal splitters by itemizing your receipt and calculating the totals owed by each. We prioritized the user experience and wanted to promote chatter at the table rather than detract from it.</p>
+<h4 id="my-contributions">My Contributions:</h4>
+<p>I developed the skeleton of the mobile app using React Native. I implemented the Google Vision API to read the text from the receipt and an algorithm to construct line items and match them with prices. Below you can see my notes on the brainstorming of the algorithm. Receipts come in all different formats, so Google Vision would have trouble matching items with their corresponding prices. Making a big assumption that typically items and prices are on the same line together, I developed an algorithm that would take the y-coordinates of an item and find other words that fall between the same y-coordinates. That should give us the prices. In the future, I hope to implement machine learning to adapt this algorithm to receipts of different formats.</p>
+<p><img src="divvi_notes.png" alt="divvi-notes"></p>
+
+        </article>
+  </div>
+</section>
+
+        </main><script type="text/javascript" src="/js/hugotagsfilter-1.2.2.min.js"></script>
+<script type="text/javascript">
+var htfConfig = {
+  filters: [
+    {
+      name: 'languages',
+      prefix: 'lang-',
+      buttonClass: 'lang-button',
+      allSelector: '#selectAllLanguages',
+      attrName: 'data-languages'
+    },
+    {
+      name: 'skills',
+      prefix: 'skill-',
+      buttonClass: 'skill-button',
+      allSelector: '#selectAllSkills',
+      attrName: 'data-skills'
+    }
+  ],
+  showItemClass: "show-item",
+  filterItemClass: "tf-filter-item",
+  activeButtonClass: "active",
+  counterSelector: "selectedItemCount",
+  populateCount: false,
+  setDisabledButtonClass: "disable-button"
+} 
+var htf = new HugoTagsFilter(htfConfig);
+</script>
+<script type="text/javascript">
+function toggleDisplay(el) {
+  var x = el.nextElementSibling;
+  if (x.style.display === "none" || x.style.display === "") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script></body>
+</html>

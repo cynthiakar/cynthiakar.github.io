@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<title>Youtube Sentiment Analysis | Cynthia&#39;s Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Analyzing YouTube Comments ">
+    <base href="http://example.org/">
+    <link type="text/css" rel="stylesheet" href="http://example.org/css/style.css">
+    <link type="text/css" rel="stylesheet" href="http://example.org/css/hugo-filter.css">
+    <link rel="canonical" href="http://example.org/posts/youtubeapi/">
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+    <meta property="og:title" content="Youtube Sentiment Analysis" />
+<meta property="og:description" content="Analyzing YouTube Comments" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/youtubeapi/" />
+<meta property="article:published_time" content="2020-02-20T18:20:40-07:00" />
+<meta property="article:modified_time" content="2020-02-20T18:20:40-07:00" />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Youtube Sentiment Analysis"/>
+<meta name="twitter:description" content="Analyzing YouTube Comments"/>
+
+</head>
+
+<body><div id="sidebar">
+	<a class="sidebar-nav-item" href="#" title="Index"><img id="logo" src="logo.png"/></a>
+	<a class="sidebar-nav-item" href="#" title="Index"><h1 id="name">Cynthia Kar</h1></a>
+	<p id="description">A portfolio of my coding projects, experiences, and other fun learning experiments</p>
+	<div id="socials">
+		<a href="https://www.linkedin.com/in/cynthiakar/" target="_blank"><img class="social_logo" src="linkedin_logo.png"/></a>
+		<a href="https://github.com/cynthiakar" target="_blank"><img class="social_logo" src="github_logo.png"/></a>
+		<a href="https://www.instagram.com/cyth.nia/" target="_blank"><img class="social_logo" src="ig_logo.png"/></a>
+	</div>
+	
+	<nav class="sidebar-nav">
+		<a class="sidebar-nav-item" href="#" title="Index">Home</a>
+	    
+	    
+	    <a class="sidebar-nav-item" href="/aboutme/" title="About Me">About Me</a>
+	    
+	    <a class="sidebar-nav-item" href="/contact/" title="Contact">Contact</a>
+	    
+	</nav>
+</div><main id="content">
+<section id="main">
+  
+  <div>
+        <article id="content">
+           <p><img src="youtube_api.png" alt="plant-simulator-header"></p>
+<h1 id="plant-simulator-built-in-c-opengl">Plant Simulator Built in C++ OpenGL</h1>
+<p><em>April - May 2020</em></p>
+<p>For my final project in my Social Media and Data Mining class, I wanted to evaluate the toxcity of YouTube communities by performing sentiment analysis on YouTube comments.</p>
+<h4 id="what-was-our-data-mining-process">What was our data mining process?</h4>
+<h4 id="storing-the-data-mongodb"><em>Storing the Data: MongoDB</em></h4>
+<p>Because our team was working remotely and needed to share the data for analysis and examination of results, we decided to use a cloud-based database.  We knew our data would primarily be stored in the form of JSON documents, and non-relational databases work very well with JSON documents. This criteria led us to choose the MongoDB database.</p>
+<h4 id="mining-the-data-youtube-api"><em>Mining the Data: YouTube API</em></h4>
+<p>We broke the data mining process into 2 parts:</p>
+<ol>
+<li>We started by collecting a list of the most popular videos from YouTube. We retrieved the most popular YouTube videos over the course of 5 days (April 2nd - 8th).</li>
+<li>Then we collected the comments for each of the videos in the list. We had to automate the comments mining process in order to circumvent the limit placed on API calls.</li>
+</ol>
+<h4 id="toxicity-analysis-algorithm-perspective"><em>Toxicity Analysis Algorithm: Perspective</em></h4>
+<p>When designing our toxicity analysis algorithm, we referenced these two research papers: “Identification and Classification of Toxic Comments on Social Media using Machine Learning Techniques” (Ozoh et al) and “Developing an online hate classifier for multiple social media platforms” (Salminen et al). These two papers helped us understand the textual and sentiment analysis techniques that are leveraged in order to analyze the toxicity of online social interactions, which we found to include the Term Frequency-Inverse Document Frequency technique, Logistic regression algorithm, and Bag of Words technique.</p>
+<p>We intended to use a toxicity analysis model called bag-of-communities developed by Eshwar Chandrasekharan, Mattia Samory, Anirudh Srinivasan, and Eric Gilbert. However, the model was written in Python2 and mostly depracated. Due to limited time and resources, we decided to use Perspective API. Although backed by a large technology company, Perspective API is a black box. Perspective API is a toxicity analysis model developed by researchers at Google that uses various machine learning models. Despite not being able to understand its inner-workings, we felt that the API suited the scope of our project and proceeded on.</p>
+<h4 id="results">Results</h4>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTbfRcf7HAjSDk1Dw1Pg9CMrzDyp1tgUqbPFleIWwSaT3ri_j-AJHM-fwyy-C3fV_UbzrfMjD62GBQx/embed?start=false&loop=false&delayms=5000" frameborder="0" width="720" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe class="recipez-report" src="https://docs.google.com/document/d/e/2PACX-1vQBQZH7If7dN3H71xMqK7_7-f00zqyXEIJ_5kHRo7Z0XQsed1DSSuyN2KcPVRuA6fekoVtNoGXpickB/pub?embedded=true"></iframe>
+
+        </article>
+  </div>
+</section>
+
+        </main><script type="text/javascript" src="/js/hugotagsfilter-1.2.2.min.js"></script>
+<script type="text/javascript">
+var htfConfig = {
+  filters: [
+    {
+      name: 'languages',
+      prefix: 'lang-',
+      buttonClass: 'lang-button',
+      allSelector: '#selectAllLanguages',
+      attrName: 'data-languages'
+    },
+    {
+      name: 'skills',
+      prefix: 'skill-',
+      buttonClass: 'skill-button',
+      allSelector: '#selectAllSkills',
+      attrName: 'data-skills'
+    }
+  ],
+  showItemClass: "show-item",
+  filterItemClass: "tf-filter-item",
+  activeButtonClass: "active",
+  counterSelector: "selectedItemCount",
+  populateCount: false,
+  setDisabledButtonClass: "disable-button"
+} 
+var htf = new HugoTagsFilter(htfConfig);
+</script>
+<script type="text/javascript">
+function toggleDisplay(el) {
+  var x = el.nextElementSibling;
+  if (x.style.display === "none" || x.style.display === "") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script></body>
+</html>
