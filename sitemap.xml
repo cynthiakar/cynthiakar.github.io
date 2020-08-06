@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cynthiakar.github.io/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/skills/data-mining/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/languages/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/skills/mongodb/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/posts/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/languages/python/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/skills/sentiment-analysis/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/skills/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/posts/youtubeapi/</loc>
+    <lastmod>2020-05-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cynthiakar.github.io/skills/api/</loc>
     <lastmod>2020-05-20T18:19:34-07:00</lastmod>
   </url>
@@ -13,22 +58,7 @@
   </url>
   
   <url>
-    <loc>https://cynthiakar.github.io/</loc>
-    <lastmod>2020-05-20T18:19:34-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cynthiakar.github.io/languages/javascript/</loc>
-    <lastmod>2020-05-20T18:19:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/languages/</loc>
-    <lastmod>2020-05-20T18:19:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/posts/</loc>
     <lastmod>2020-05-20T18:19:34-07:00</lastmod>
   </url>
   
@@ -39,11 +69,6 @@
   
   <url>
     <loc>https://cynthiakar.github.io/posts/recipez/</loc>
-    <lastmod>2020-05-20T18:19:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/skills/</loc>
     <lastmod>2020-05-20T18:19:34-07:00</lastmod>
   </url>
   
@@ -59,12 +84,17 @@
   
   <url>
     <loc>https://cynthiakar.github.io/languages/c&#43;&#43;/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
+    <lastmod>2020-04-20T18:20:40-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cynthiakar.github.io/skills/data-mining/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
+    <loc>https://cynthiakar.github.io/skills/opengl/</loc>
+    <lastmod>2020-04-20T18:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cynthiakar.github.io/posts/plantsim/</loc>
+    <lastmod>2020-04-20T18:20:40-07:00</lastmod>
   </url>
   
   <url>
@@ -74,36 +104,6 @@
   
   <url>
     <loc>https://cynthiakar.github.io/skills/google-api/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/skills/mongodb/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/skills/opengl/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/posts/plantsim/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/languages/python/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/skills/sentiment-analysis/</loc>
-    <lastmod>2020-02-20T18:20:40-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cynthiakar.github.io/posts/youtubeapi/</loc>
     <lastmod>2020-02-20T18:20:40-07:00</lastmod>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Languages on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2020 18:19:34 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 18:20:40 -0700</lastBuildDate>
     
 	<atom:link href="https://cynthiakar.github.io/languages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>https://cynthiakar.github.io/languages/python/</link>
+      <pubDate>Wed, 20 May 2020 18:20:40 -0700</pubDate>
+      
+      <guid>https://cynthiakar.github.io/languages/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JavaScript</title>
@@ -23,18 +32,9 @@
     <item>
       <title>C&#43;&#43;</title>
       <link>https://cynthiakar.github.io/languages/c&#43;&#43;/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
+      <pubDate>Mon, 20 Apr 2020 18:20:40 -0700</pubDate>
       
       <guid>https://cynthiakar.github.io/languages/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://cynthiakar.github.io/languages/python/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
-      
-      <guid>https://cynthiakar.github.io/languages/python/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,37 @@
     <description>Recent content in Skills on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2020 18:19:34 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 18:20:40 -0700</lastBuildDate>
     
 	<atom:link href="https://cynthiakar.github.io/skills/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Mining</title>
+      <link>https://cynthiakar.github.io/skills/data-mining/</link>
+      <pubDate>Wed, 20 May 2020 18:20:40 -0700</pubDate>
+      
+      <guid>https://cynthiakar.github.io/skills/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://cynthiakar.github.io/skills/mongodb/</link>
+      <pubDate>Wed, 20 May 2020 18:20:40 -0700</pubDate>
+      
+      <guid>https://cynthiakar.github.io/skills/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://cynthiakar.github.io/skills/sentiment-analysis/</link>
+      <pubDate>Wed, 20 May 2020 18:20:40 -0700</pubDate>
+      
+      <guid>https://cynthiakar.github.io/skills/sentiment-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>API</title>
@@ -39,11 +66,11 @@
     </item>
     
     <item>
-      <title>Data Mining</title>
-      <link>https://cynthiakar.github.io/skills/data-mining/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
+      <title>OpenGL</title>
+      <link>https://cynthiakar.github.io/skills/opengl/</link>
+      <pubDate>Mon, 20 Apr 2020 18:20:40 -0700</pubDate>
       
-      <guid>https://cynthiakar.github.io/skills/data-mining/</guid>
+      <guid>https://cynthiakar.github.io/skills/opengl/</guid>
       <description></description>
     </item>
     
@@ -53,33 +80,6 @@
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
       <guid>https://cynthiakar.github.io/skills/google-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MongoDB</title>
-      <link>https://cynthiakar.github.io/skills/mongodb/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
-      
-      <guid>https://cynthiakar.github.io/skills/mongodb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenGL</title>
-      <link>https://cynthiakar.github.io/skills/opengl/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
-      
-      <guid>https://cynthiakar.github.io/skills/opengl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sentiment Analysis</title>
-      <link>https://cynthiakar.github.io/skills/sentiment-analysis/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
-      
-      <guid>https://cynthiakar.github.io/skills/sentiment-analysis/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,21 @@
     <description>Recent content on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2020 18:19:34 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 18:20:40 -0700</lastBuildDate>
     
 	<atom:link href="https://cynthiakar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Youtube Sentiment Analysis</title>
+      <link>https://cynthiakar.github.io/posts/youtubeapi/</link>
+      <pubDate>Wed, 20 May 2020 18:20:40 -0700</pubDate>
+      
+      <guid>https://cynthiakar.github.io/posts/youtubeapi/</guid>
+      <description>Plant Simulator Built in C++ OpenGL April - May 2020
+For my final project in my Social Media and Data Mining class, I wanted to evaluate the toxcity of YouTube communities by performing sentiment analysis on YouTube comments.
+What was our data mining process? Storing the Data: MongoDB Because our team was working remotely and needed to share the data for analysis and examination of results, we decided to use a cloud-based database.</description>
+    </item>
     
     <item>
       <title>recipE-Z</title>
@@ -19,6 +30,17 @@
       <guid>https://cynthiakar.github.io/posts/recipez/</guid>
       <description>recipE-Z: the recipe finder app January - May 2020
 What is recipE-Z? As a way to help alleviate food waste, we built an iOS app that will present you with recipes based on the ingredients you already have. A user can enter a list of ingredients or a specific recipe and then our app will search through a database of recipes, from online or submitted by users in our app. It will present results ranging from recipes that can be made with everything the user already has to recipes that will require extra ingredients.</description>
+    </item>
+    
+    <item>
+      <title>Plant Simulator</title>
+      <link>https://cynthiakar.github.io/posts/plantsim/</link>
+      <pubDate>Mon, 20 Apr 2020 18:20:40 -0700</pubDate>
+      
+      <guid>https://cynthiakar.github.io/posts/plantsim/</guid>
+      <description>Plant Simulator Built in C++ OpenGL April - May 2020
+For my final project in my Computer Graphics class, I built an interactive plant game, where you can plant seeds, water it, and watch it bloom!
+What features does it have?  Particle system Swept surfaces Animation Interactions via keyboard and mouse clicks Lighting Bezier curves Bitmaps and textures Clipping planes  What does it look like? Video coming soon</description>
     </item>
     
     <item>
@@ -33,34 +55,12 @@ What is divvi? We built a receipt scanner app called &amp;lsquo;divvi&amp;rsquo;
     </item>
     
     <item>
-      <title>Plant Simulator</title>
-      <link>https://cynthiakar.github.io/posts/plantsim/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
-      
-      <guid>https://cynthiakar.github.io/posts/plantsim/</guid>
-      <description>Plant Simulator Built in C++ OpenGL April - May 2020
-For my final project in my Computer Graphics class, I built an interactive plant game, where you can plant seeds, water it, and watch it bloom!
-What features does it have?  Particle system Swept surfaces Animation Interactions via keyboard and mouse clicks Lighting Bezier curves Bitmaps and textures Clipping planes  What does it look like? Video coming soon</description>
-    </item>
-    
-    <item>
-      <title>Youtube Sentiment Analysis</title>
-      <link>https://cynthiakar.github.io/posts/youtubeapi/</link>
-      <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
-      
-      <guid>https://cynthiakar.github.io/posts/youtubeapi/</guid>
-      <description>Plant Simulator Built in C++ OpenGL April - May 2020
-For my final project in my Social Media and Data Mining class, I wanted to evaluate the toxcity of YouTube communities by performing sentiment analysis on YouTube comments.
-What was our data mining process? Storing the Data: MongoDB Because our team was working remotely and needed to share the data for analysis and examination of results, we decided to use a cloud-based database.</description>
-    </item>
-    
-    <item>
       <title>Resumate</title>
       <link>https://cynthiakar.github.io/posts/resumate/</link>
       <pubDate>Thu, 11 May 2017 14:14:16 -0700</pubDate>
       
       <guid>https://cynthiakar.github.io/posts/resumate/</guid>
-      <description>Markdown is fully supported So are a variety of other flavors If you prefer certain flavors, you should check it out on the official documentation.</description>
+      <description>In progress </description>
     </item>
     
   </channel>
