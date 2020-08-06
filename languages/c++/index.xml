@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on Cynthia&#39;s Portfolio</title>
-    <link>http://example.org/languages/c&#43;&#43;/</link>
+    <link>https://cynthiakar.github.io/languages/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Feb 2020 18:20:40 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/languages/c++/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cynthiakar.github.io/languages/c++/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plant Simulator</title>
-      <link>http://example.org/posts/plantsim/</link>
+      <link>https://cynthiakar.github.io/posts/plantsim/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/posts/plantsim/</guid>
+      <guid>https://cynthiakar.github.io/posts/plantsim/</guid>
       <description>Plant Simulator Built in C++ OpenGL April - May 2020
 For my final project in my Computer Graphics class, I built an interactive plant game, where you can plant seeds, water it, and watch it bloom!
 What features does it have?  Particle system Swept surfaces Animation Interactions via keyboard and mouse clicks Lighting Bezier curves Bitmaps and textures Clipping planes  What does it look like? Video coming soon</description>

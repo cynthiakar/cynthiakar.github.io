@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML/CSS on Cynthia&#39;s Portfolio</title>
-    <link>http://example.org/languages/html/css/</link>
+    <link>https://cynthiakar.github.io/languages/html/css/</link>
     <description>Recent content in HTML/CSS on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/languages/html/css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cynthiakar.github.io/languages/html/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resumate</title>
-      <link>http://example.org/posts/resumate/</link>
+      <link>https://cynthiakar.github.io/posts/resumate/</link>
       <pubDate>Thu, 11 May 2017 14:14:16 -0700</pubDate>
       
-      <guid>http://example.org/posts/resumate/</guid>
+      <guid>https://cynthiakar.github.io/posts/resumate/</guid>
       <description>Markdown is fully supported So are a variety of other flavors If you prefer certain flavors, you should check it out on the official documentation.</description>
     </item>
     

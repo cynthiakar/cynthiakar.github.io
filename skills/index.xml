@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skills on Cynthia&#39;s Portfolio</title>
-    <link>http://example.org/skills/</link>
+    <link>https://cynthiakar.github.io/skills/</link>
     <description>Recent content in Skills on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 May 2020 18:19:34 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/skills/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cynthiakar.github.io/skills/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>API</title>
-      <link>http://example.org/skills/api/</link>
+      <link>https://cynthiakar.github.io/skills/api/</link>
       <pubDate>Wed, 20 May 2020 18:19:34 -0700</pubDate>
       
-      <guid>http://example.org/skills/api/</guid>
+      <guid>https://cynthiakar.github.io/skills/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>App Development</title>
-      <link>http://example.org/skills/app-development/</link>
+      <link>https://cynthiakar.github.io/skills/app-development/</link>
       <pubDate>Wed, 20 May 2020 18:19:34 -0700</pubDate>
       
-      <guid>http://example.org/skills/app-development/</guid>
+      <guid>https://cynthiakar.github.io/skills/app-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React Native</title>
-      <link>http://example.org/skills/react-native/</link>
+      <link>https://cynthiakar.github.io/skills/react-native/</link>
       <pubDate>Wed, 20 May 2020 18:19:34 -0700</pubDate>
       
-      <guid>http://example.org/skills/react-native/</guid>
+      <guid>https://cynthiakar.github.io/skills/react-native/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Mining</title>
-      <link>http://example.org/skills/data-mining/</link>
+      <link>https://cynthiakar.github.io/skills/data-mining/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/skills/data-mining/</guid>
+      <guid>https://cynthiakar.github.io/skills/data-mining/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google API</title>
-      <link>http://example.org/skills/google-api/</link>
+      <link>https://cynthiakar.github.io/skills/google-api/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/skills/google-api/</guid>
+      <guid>https://cynthiakar.github.io/skills/google-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MongoDB</title>
-      <link>http://example.org/skills/mongodb/</link>
+      <link>https://cynthiakar.github.io/skills/mongodb/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/skills/mongodb/</guid>
+      <guid>https://cynthiakar.github.io/skills/mongodb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenGL</title>
-      <link>http://example.org/skills/opengl/</link>
+      <link>https://cynthiakar.github.io/skills/opengl/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/skills/opengl/</guid>
+      <guid>https://cynthiakar.github.io/skills/opengl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sentiment Analysis</title>
-      <link>http://example.org/skills/sentiment-analysis/</link>
+      <link>https://cynthiakar.github.io/skills/sentiment-analysis/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/skills/sentiment-analysis/</guid>
+      <guid>https://cynthiakar.github.io/skills/sentiment-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>http://example.org/skills/web-development/</link>
+      <link>https://cynthiakar.github.io/skills/web-development/</link>
       <pubDate>Thu, 11 May 2017 14:14:16 -0700</pubDate>
       
-      <guid>http://example.org/skills/web-development/</guid>
+      <guid>https://cynthiakar.github.io/skills/web-development/</guid>
       <description></description>
     </item>
     

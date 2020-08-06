@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sentiment Analysis on Cynthia&#39;s Portfolio</title>
-    <link>http://example.org/skills/sentiment-analysis/</link>
+    <link>https://cynthiakar.github.io/skills/sentiment-analysis/</link>
     <description>Recent content in Sentiment Analysis on Cynthia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Feb 2020 18:20:40 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/skills/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cynthiakar.github.io/skills/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Youtube Sentiment Analysis</title>
-      <link>http://example.org/posts/youtubeapi/</link>
+      <link>https://cynthiakar.github.io/posts/youtubeapi/</link>
       <pubDate>Thu, 20 Feb 2020 18:20:40 -0700</pubDate>
       
-      <guid>http://example.org/posts/youtubeapi/</guid>
+      <guid>https://cynthiakar.github.io/posts/youtubeapi/</guid>
       <description>Plant Simulator Built in C++ OpenGL April - May 2020
 For my final project in my Social Media and Data Mining class, I wanted to evaluate the toxcity of YouTube communities by performing sentiment analysis on YouTube comments.
 What was our data mining process? Storing the Data: MongoDB Because our team was working remotely and needed to share the data for analysis and examination of results, we decided to use a cloud-based database.</description>
